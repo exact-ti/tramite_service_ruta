@@ -1,4 +1,4 @@
-package com.example.tramite_service_ruta.controller;
+package com.example.ruta.controller;
 
 import java.util.List;
 
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.example.tramite_service_ruta.dao.interfaces.IDetalleRutaDAO;
-import com.example.tramite_service_ruta.entity.DetalleRuta;
-import com.example.tramite_service_ruta.service.DetalleRutaService;
+import com.example.ruta.dao.interfaces.IDetalleRutaDAO;
+import com.example.ruta.entity.DetalleRuta;
+import com.example.ruta.service.DetalleRutaService;
 
 @Controller
 @RequestMapping("/rutas")

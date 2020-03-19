@@ -1,4 +1,4 @@
-package com.example.tramite_service_ruta.filter;
+package com.example.ruta.filter;
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.example.tramite_service_ruta.configuration;
+package com.example.ruta.configuration;
 
 import java.util.Arrays;
 
@@ -12,7 +12,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-import com.example.tramite_service_ruta.filter.JWTAuthorizationFilter;
+import com.example.ruta.filter.JWTAuthorizationFilter;
 
 
 @Configuration

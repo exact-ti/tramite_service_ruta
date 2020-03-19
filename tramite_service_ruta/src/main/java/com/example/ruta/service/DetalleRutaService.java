@@ -1,9 +1,9 @@
-package com.example.tramite_service_ruta.service;
+package com.example.ruta.service;
 
 import java.util.List;
 
-import com.example.tramite_service_ruta.dao.interfaces.IDetalleRutaDAO;
-import com.example.tramite_service_ruta.entity.DetalleRuta;
+import com.example.ruta.dao.interfaces.IDetalleRutaDAO;
+import com.example.ruta.entity.DetalleRuta;
 
 public class DetalleRutaService {
 	

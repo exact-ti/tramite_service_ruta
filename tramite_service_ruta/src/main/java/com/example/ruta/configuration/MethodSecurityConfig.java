@@ -1,4 +1,4 @@
-package com.example.tramite_service_ruta.configuration;
+package com.example.ruta.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

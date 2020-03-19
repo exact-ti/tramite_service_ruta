@@ -1,4 +1,4 @@
-package com.example.tramite_service_ruta;
+package com.example.ruta;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
