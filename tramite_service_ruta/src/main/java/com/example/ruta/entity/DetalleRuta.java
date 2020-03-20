@@ -25,8 +25,8 @@ public class DetalleRuta implements Serializable {
 	@Column(name="detalle_ruta_id")
 	private Long id;
 	
-	@Column(name="ubicacion_id")
-	private Long ubicacionId;
+	@Column(name="codigo_ubicacion")
+	private String codigoUbicacion;
 	
 	private byte orden;
 	
