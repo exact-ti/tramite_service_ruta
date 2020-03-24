@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: servicio-ruta
+  profiles:
+    active: default

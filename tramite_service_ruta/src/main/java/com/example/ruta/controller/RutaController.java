@@ -25,7 +25,7 @@ public class RutaController {
 	DetalleRutaService detalleRutaService;
 	
 	@GetMapping("{id}/detalleruta")
-	@Secured("RUTA_LISTAR_DETALLE_RUTA_BY_RUTA_ID")
+	@Secured({"ADMIN", "LISTAR_DETALLE_RUTA"})
 	ResponseEntity<List<DetalleRuta>> listarDetalleRutaByRutaId(@PathVariable("id") Long rutaId){
 		return new ResponseEntity<List<DetalleRuta>>(new DetalleRutaService(detalleRutaDAO).getDetalleRutaByRutaId(rutaId), HttpStatus.OK);
 	}
