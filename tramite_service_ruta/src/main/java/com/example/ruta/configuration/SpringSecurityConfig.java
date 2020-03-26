@@ -23,7 +23,9 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-		http.addFilter(new JWTAuthorizationFilter(authenticationManager())).csrf().disable().sessionManagement()
+		http.authorizeRequests().antMatchers("/h2-console*").anonymous()
+		.and().headers().frameOptions().sameOrigin()
+		.and().addFilter(new JWTAuthorizationFilter(authenticationManager())).csrf().disable().sessionManagement()
 		.sessionCreationPolicy(SessionCreationPolicy.STATELESS).and().cors();
 	}	
 	
